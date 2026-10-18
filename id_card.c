@@ -10,7 +10,7 @@ struct id_card
 struct id_card id1 = {"Tanish", 11, "BCA", "CCT", 7888352812};
 int printline(void)
 {
-     for (int i=1;i<=30;i++)
+    for (int i = 1; i <= 30; i++)
     {
         printf("-");
     }
@@ -18,8 +18,10 @@ int printline(void)
 }
 int main(void)
 {
+    printf("\n\v");
     printline();
     printf("\nname: %s\nroll no: %d\ncourse: %s\ndepartment: %s\nphone: %ld\n", id1.name, id1.roll, id1.course, id1.derpartment, id1.phone);
     printline();
+    printf("\n\v");
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    int a = 1
+    printf("%d", 10 / 10);
+    return 0;
 }
