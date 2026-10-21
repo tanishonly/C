@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tanish/Documents/pst lab_theory/Programs/switch_calculate'
+relocations:     []
+...

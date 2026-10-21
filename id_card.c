@@ -20,7 +20,7 @@ int main(void)
 {
     printf("\n\v");
     printline();
-    printf("\nname: %s\nroll no: %d\ncourse: %s\ndepartment: %s\nphone: %ld\n", id1.name, id1.roll, id1.course, id1.derpartment, id1.phone);
+    printf("\nName: %s\nRoll no: %d\nCourse: %s\nDepartment: %s\nPhone: %ld\n", id1.name, id1.roll, id1.course, id1.derpartment, id1.phone);
     printline();
     printf("\n\v");
     return 0;
