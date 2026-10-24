@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
     int rows, columns;
     printf("enter the rows and columns you want in array\n");
