@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <math.h>
-int main(void)
-{
-    double a = 5;
-    char str[16] = "squre root is: ";
-    printf("%s %lf\n", str, sqrt(a));
+#include<stdio.h>
+int main(void){
+    int a = 10;
+    printf("%p\n",&a);
     return 0;
 }
