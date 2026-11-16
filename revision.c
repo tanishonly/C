@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-short int x;
+extern short int x;
 int printline(void)
 {
     for (int i = 1; i <= 10; i++)
