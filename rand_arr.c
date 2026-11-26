@@ -9,7 +9,7 @@ int main(void){
         a[i] = rand()%100;
         printf("%d ",a[i]);
     }
-    printf("\n%d\n",size);
+    printf("\nsize of array is %d\n",size);
     printf("\nEnter target value: ");
     scanf("%d",&target);
     printf("\n");
